@@ -19,7 +19,10 @@ html {
 }
 
 
-
+.currency__item {
+    cursor: pointer;
+    user-select: none;
+  }
 
 
 
