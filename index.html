@@ -223,21 +223,39 @@
       </div>
 
       <script>
-        function copyToClipboard(text) {
-          const textField = document.createElement('textarea');
-          textField.innerText = text;
-          document.body.appendChild(textField);
-          textField.select();
-          document.execCommand('copy');
-          textField.remove();
-        }
-      </script>
+          function copyToClipboard(text) {
+            const textField = document.createElement('textarea');
+            textField.innerText = text;
+            document.body.appendChild(textField);
+            textField.select();
+            document.execCommand('copy');
+            textField.remove();
+          }
+        </script>
 
       <div class="payment-details__currency currency" id="donate-section">
         <p class="currency__title" >✪ BITCOIN:</p>
         <ul>
           <li class="currency__item item" onclick="copyToClipboard('bc1qg4elvet6hr03lj3edsmusjxs5046s054sx2rcp')">
             <p class="item__details"><b>bc1qg4elvet6hr03lj3edsmusjxs5046s054sx2rcp</b></p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="payment-details__currency currency" id="donate-section">
+        <p class="currency__title" >✪ ETHEREUM:</p>
+        <ul>
+          <li class="currency__item item" onclick="copyToClipboard('0xE4383899d3aa1d7e011d41C203cAF75c090C2b9d')">
+            <p class="item__details"><b>0xE4383899d3aa1d7e011d41C203cAF75c090C2b9d</b></p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="payment-details__currency currency" id="donate-section">
+        <p class="currency__title" >✪ LITECOIN:</p>
+        <ul>
+          <li class="currency__item item" onclick="copyToClipboard('ltc1qms4s82gr5cenn67f7u7u5nr7e9pw5g5h9qel0d')">
+            <p class="item__details"><b>ltc1qms4s82gr5cenn67f7u7u5nr7e9pw5g5h9qel0d</b></p>
           </li>
         </ul>
       </div>
