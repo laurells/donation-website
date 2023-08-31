@@ -1211,6 +1211,7 @@ p {
       .navbar-brand {
         font-size: 1.8rem; /* Adjust the font size as needed */
         margin-left: 2rem; /* Adjust the margin as needed */
+        margin-bottom: 10px;
       }
     
       .navbar-nav {
