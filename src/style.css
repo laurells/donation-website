@@ -1193,6 +1193,7 @@ p {
     .currency {
         max-width: 667px;
         margin: 0 auto; /* Center the container horizontally */
+        margin-top: 20px;
       }
     
       .currency__item {
@@ -1207,5 +1208,27 @@ p {
         text-overflow: ellipsis; /* Show ellipsis (...) for truncated content */
       }
 
+      .navbar-brand {
+        font-size: 1.8rem; /* Adjust the font size as needed */
+        margin-left: 2rem; /* Adjust the margin as needed */
+      }
+    
+      .navbar-nav {
+        margin-right: 2rem; /* Adjust the margin as needed */
+      }
+    
+      .nav-item {
+        padding: 0 1rem; /* Adjust the padding as needed */
+      }
+    
+      .nav-link {
+        font-size: 1rem; /* Adjust the font size as needed */
+      }
+    
+      .navbarlogo {
+        width: 180px; /* Adjust the width as needed */
+        height: 120px; /* Adjust the height as needed */
+        margin: -40px 10px; /* Adjust the margin as needed */
+      }
 }
 
